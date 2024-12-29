@@ -17,7 +17,7 @@ export default function HeroSection() {
           seamless digital experiences.
         </p>
         <a
-          href={process.env.PUBLIC_URL + "/Cv_Adhitya-Maulana-Wijaya.pdf"}
+          href="https://adhityamaulana11.github.io/Portfolio-Site/CV_Adhitya-Maulana-Wijaya.pdf"
           download="CV_Adhitya-Maulana-Wijaya.pdf"
           className="btn bg-[#FFCB05] text-[#252525] font-bold px-6 py-3 border-2 border-black rounded-lg hover:opacity-90 inline-block"
         >
