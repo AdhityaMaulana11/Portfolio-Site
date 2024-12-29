@@ -7,7 +7,7 @@ export default function Footer() {
           <div className="flex items-center space-x-3">
             <div className="bg-[#FFC64E] w-8 h-8 rounded"></div>
             <span className="text-white font-bold text-lg">
-              Adhitya Maulana Wijaya
+              Adhitya Maulana
             </span>
           </div>
           <p className="text-gray-400">
