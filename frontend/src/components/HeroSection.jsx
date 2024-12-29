@@ -1,3 +1,5 @@
+import pfp from "../assets/merah.jpg";
+import pfp2 from "../assets/Vscode-Logotype.png";
 export default function HeroSection() {
   return (
     <section
@@ -27,8 +29,8 @@ export default function HeroSection() {
         <div className="flex items-center space-x-4">
           <div className="relative">
             <img
-              src="../assets/merah.jpg"
-              alt="Man"
+              src={pfp}
+              alt="Adhitya pfp"
               className="w-48 h-64 rounded-[1rem] object-cover border-4 border-[#E6B8B3]"
             />
             <div className="absolute top-0 right-0 bg-[#FFCB05] rounded-full px-2 py-1 text-xs">
@@ -37,8 +39,8 @@ export default function HeroSection() {
           </div>
           <div className="relative">
             <img
-              src="../assets/Vscode-Logotype.png"
-              alt="Woman"
+              src={pfp2}
+              alt="vscode-logo"
               className="w-48 h-64 rounded-[1rem] object-scale-down bg-[#1f9cf0] border-4 border-[#8DC8D6]"
             />
           </div>
