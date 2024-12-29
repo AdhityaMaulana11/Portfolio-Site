@@ -41,6 +41,7 @@ export default function ProjectSection() {
             description="Restoku App is a Progressive Web Application that provides restaurant recommendations around the city. Restaurant data is retrieved from an API. Built with HTML5, CSS3, JavaScript, and Web Components."
             images={[RestokuApp1, RestokuApp2, RestokuApp3]}
             border="border-[#8DC8D6]"
+            highlight={1}
           />
         </div>
         <div className="w-full max-w-4xl flex flex-col md:flex-row items-center md:justify-between space-y-4 md:space-y-0">
@@ -50,6 +51,7 @@ export default function ProjectSection() {
             images={[NotesAppVanilla1, NotesAppVanilla2]}
             reverse
             border="border-[#E6B8B3]"
+            highlight={2}
           />
         </div>
         <div className="w-full max-w-4xl flex flex-col md:flex-row items-center md:justify-between space-y-4 md:space-y-0">
@@ -64,6 +66,7 @@ export default function ProjectSection() {
               TravelKuy5,
             ]}
             border="border-[#F4C28E]"
+            highlight={3}
           />
         </div>
         <div className="w-full max-w-4xl flex flex-col md:flex-row items-center md:justify-between space-y-4 md:space-y-0">

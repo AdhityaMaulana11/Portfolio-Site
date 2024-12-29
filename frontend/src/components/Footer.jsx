@@ -23,17 +23,17 @@ export default function Footer() {
             <h3 className="text-white font-bold mb-3">Highlight Projects</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#projects" className="hover:text-white">
+                <a href="#highlight-1" className="hover:text-white">
                   Restoku App
                 </a>
               </li>
               <li>
-                <a href="#projects" className="hover:text-white">
+                <a href="#highlight-2" className="hover:text-white">
                   Notes Taking App
                 </a>
               </li>
               <li>
-                <a href="#projects" className="hover:text-white">
+                <a href="#highlight-3" className="hover:text-white">
                   Travel Kuy
                 </a>
               </li>

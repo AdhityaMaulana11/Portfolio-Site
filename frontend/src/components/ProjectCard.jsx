@@ -6,6 +6,7 @@ export default function ProjectCard({
   images,
   reverse,
   border,
+  highlight,
 }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,7 +24,7 @@ export default function ProjectCard({
         reverse ? "flex-row-reverse" : ""
       } items-center gap-8`}
     >
-      <div className="flex-1">
+      <div className="flex-1" id={`highlight-${highlight}`}>
         <h3 className="text-2xl font-bold mb-3">{title}</h3>
         <p className="text-[#737373] mb-4">{description}</p>
         <a
