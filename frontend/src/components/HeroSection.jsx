@@ -27,7 +27,7 @@ export default function HeroSection() {
         <div className="flex items-center space-x-4">
           <div className="relative">
             <img
-              src="../public/merah.jpg"
+              src="../../src/assets/merah.jpg"
               alt="Man"
               className="w-48 h-64 rounded-[1rem] object-cover border-4 border-[#E6B8B3]"
             />
@@ -37,7 +37,7 @@ export default function HeroSection() {
           </div>
           <div className="relative">
             <img
-              src="../public/Vscode-Logotype.png"
+              src="../assets/Vscode-Logotype.png"
               alt="Woman"
               className="w-48 h-64 rounded-[1rem] object-scale-down bg-[#1f9cf0] border-4 border-[#8DC8D6]"
             />
