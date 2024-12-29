@@ -17,8 +17,8 @@ export default function HeroSection() {
           seamless digital experiences.
         </p>
         <a
-          href="../assets/Cv_Adhitya-Maulana-Wijaya.pdf"
-          download="CV_Adhitya-Maulana-Wijaya-CV.pdf"
+          href="/Cv_Adhitya-Maulana-Wijaya.pdf"
+          download="CV_Adhitya-Maulana-Wijaya.pdf"
           className="btn bg-[#FFCB05] text-[#252525] font-bold px-6 py-3 border-2 border-black rounded-lg hover:opacity-90 inline-block"
         >
           Download CV <span className="inline-block">↓</span>
